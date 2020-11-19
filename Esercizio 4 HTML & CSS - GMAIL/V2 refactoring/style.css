@@ -1,0 +1,80 @@
+/* *{
+  box-sizing: border-box;
+  margin: 0;
+} */
+body{
+  background-image: url("https://i.pinimg.com/originals/d9/54/77/d95477c9dd5d3799c99e7bad78fb8267.jpg");
+  color: white;
+}
+
+.container{
+  width: 1000px;
+  margin: auto;
+}
+
+footer{
+  color: white;
+  text-align: center;
+}
+
+nav{
+  font-size: 20px;
+  padding: 5px 0;
+  color: white;
+}
+
+.logo{
+  width: 200px;
+}
+
+.logo-text{
+  color: white;
+  font-size: 25px;
+  display: inline-block;
+}
+
+h2 > span{
+  background-color: orange;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.star{
+  color: orange;
+}
+
+.star:after{
+  content: "\2605";
+}
+
+.subject{
+  color: black;
+}
+
+.email .body{
+  color: grey;
+}
+
+.email.unread{
+  background-color: lightgrey;
+}
+
+.email.read{
+  background-color: white;
+}
+
+.row-left, .row-right{
+  display: inline-block;
+}
+
+.row-left{
+  width: 30%;
+}
+
+.row-right{
+  width: 68%;
+}
+
+footer > span{
+  font-size: 25px;
+}
