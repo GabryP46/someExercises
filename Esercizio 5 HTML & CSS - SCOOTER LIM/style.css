@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Century Gothic", Times, serif;
+}
+
+body{
+  background-image: url("img/background.jpg");
+  background-size: cover;
+}
+
+header, nav{
+  text-align: center;
+}
+
+nav{
+  background-color: limegreen;
+  padding: 10px;
+}
+
+nav li{
+  display: inline-block;
+}
+
+.container{
+  width: 1200px;
+  margin: 25px auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 100px;
+  border-radius: 20px;
+}
+
+header > img{
+  width: 250px
+}
+
+h1{
+  color: limegreen;
+  padding: 5px;
+}
+
+section{
+  color: white;
+  padding-top: 20px;
+}
+
+section > span{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.charge{
+  border-radius: 5px;
+  height: 30px;
+}
+
+.gino22 > .charge{
+  width: 35%;
+  background-color: orange;
+}
+.mike24 > .charge{
+  width: 60%;
+  background-color: limegreen;
+}
+.fede154 > .charge{
+  width: 15%;
+  background-color: red;
+}
