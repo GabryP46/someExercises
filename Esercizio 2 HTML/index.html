@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registrazione sito internet</title>
+  </head>
+  <body>
+    <h1>Registrazione sito internet</h1>
+
+    <form action="index.html" method="post">
+
+      <div>
+        <input type="text" name="firstName" placeholder="inserisci il tuo nome" required minlength="3" maxlength="10">
+      </div>
+
+      <div>
+        <input type="text" name="lastName" placeholder="inserisci il tuo cognome" required minlength="3" maxlength="10">
+      </div>
+
+      <div>
+        <input type="email" name="email" placeholder="inserisci la tua email" required>
+      </div>
+
+      <div>
+        <select required>
+          <option>Abruzzo</option>
+          <option>Lazio</option>
+          <option>Sicilia</option>
+        </select>
+      </div>
+
+      <div>
+        <input type="radio" name="age" required>0-18
+        <input type="radio" name="age">18+
+      </div>
+
+      <div>
+        <input type="checkbox" required>Accetta i termini e condizioni
+      </div>
+
+      <div>
+        <input type="submit" value="Invia">
+      </div>
+    </form>
+
+  </body>
+</html>
