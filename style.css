@@ -4,7 +4,8 @@
 }
 
 body{
-  font-family: "heebo";
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
   font-size: 20px;
 }
 
@@ -13,108 +14,38 @@ body{
   margin: 30px auto;
 }
 
-.iteration{
-  font-weight: bold;
-  color: darkcyan;
-}
-
-button{
-  background: none;
-  border: none;
-  margin-bottom: 30px;
+a{
   font-size: 40px;
+  text-decoration: none;
+  color: #3481d0;
 }
 
-header > div{
-  width: 100%;
-  clear: both;
-  content: "";
-  display: table;.
+.title{
+  font-size: 40px;
+  padding-bottom: 20px;
+  margin: 30px 0 60px;
+  border-bottom: 1px solid lightgrey;
 }
 
-div > h1{
-  float: left;
-}
-
-div > span.iteration{
+.title a{
   float: right;
+  font-size: 20px;
 }
 
-hr{
-  border: 1px solid lightgrey;
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-
-.row{
-  width: 100%;
-  clear: both;
-  content: "";
-  display: table;.
-}
-
-.picture{
-  height: 250px;
-  width: 16.666%;
-  padding: 10px;
+.album{
+  width: calc(100% / 6 - 20px);
+  margin: 10px;
   float:left;
 }
 
-.img{
-  background-size: cover;
-  height: 70%;
-  margin-bottom: 5px;
+.album-img img{
+  width: 100%;
 }
 
-#first{
-    background-image: url('img/1.png');
+.album-title,.album-number{
+  margin: 10px 0;
 }
 
-#second{
-    background-image: url('img/2.jpg');
-}
-
-#third{
-    background-image: url('img/3.jpg');
-}
-
-#fourth{
-    background-image: url('img/4.jpg');
-}
-#fifth{
-    background-image: url('img/5.jpg');
-}
-
-#sixth{
-    background-image: url('img/6.jpg');
-}
-
-#seventh{
-    background-image: url('img/7.jpg');
-}
-
-#eighth{
-    background-image: url('img/8.jpg');
-}
-#ninth{
-    background-image: url('img/9.jpg');
-}
-
-#tenth{
-    background-image: url('img/10.jpg');
-}
-
-#eleventh{
-    background-image: url('img/11.jpg');
-}
-
-#twelfth{
-    background-image: url('img/12.jpg');
-}
-
-
-
-.counter{
-  display: block;
+.album-number{
   color: grey;
 }
