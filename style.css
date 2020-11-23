@@ -1,0 +1,120 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  font-family: "heebo";
+  font-size: 20px;
+}
+
+.container{
+  width: 95vw;
+  margin: 30px auto;
+}
+
+.iteration{
+  font-weight: bold;
+  color: darkcyan;
+}
+
+button{
+  background: none;
+  border: none;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+header > div{
+  width: 100%;
+  clear: both;
+  content: "";
+  display: table;.
+}
+
+div > h1{
+  float: left;
+}
+
+div > span.iteration{
+  float: right;
+}
+
+hr{
+  border: 1px solid lightgrey;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.row{
+  width: 100%;
+  clear: both;
+  content: "";
+  display: table;.
+}
+
+.picture{
+  height: 250px;
+  width: 16.666%;
+  padding: 10px;
+  float:left;
+}
+
+.img{
+  background-size: cover;
+  height: 70%;
+  margin-bottom: 5px;
+}
+
+#first{
+    background-image: url('img/1.png');
+}
+
+#second{
+    background-image: url('img/2.jpg');
+}
+
+#third{
+    background-image: url('img/3.jpg');
+}
+
+#fourth{
+    background-image: url('img/4.jpg');
+}
+#fifth{
+    background-image: url('img/5.jpg');
+}
+
+#sixth{
+    background-image: url('img/6.jpg');
+}
+
+#seventh{
+    background-image: url('img/7.jpg');
+}
+
+#eighth{
+    background-image: url('img/8.jpg');
+}
+#ninth{
+    background-image: url('img/9.jpg');
+}
+
+#tenth{
+    background-image: url('img/10.jpg');
+}
+
+#eleventh{
+    background-image: url('img/11.jpg');
+}
+
+#twelfth{
+    background-image: url('img/12.jpg');
+}
+
+
+
+.counter{
+  display: block;
+  color: grey;
+}
