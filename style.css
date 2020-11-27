@@ -157,3 +157,39 @@ section.content::after {
 }
 
 /* Code here */
+
+section.content .videos{
+  padding-right: 120px;
+}
+
+section.content .videos .video{
+  padding: 30px;
+  width: calc(100% / 4);
+  float: left;
+}
+
+section.content .videos .video .image img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+section.content .videos .video .video-icon{
+  width: 15%;
+}
+
+section.content .videos .video .video-icon img{
+  width: 100%;
+  float: left;
+  margin-right: 20px;
+}
+
+section.content .videos .video .video-title{
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+section.content .videos .video .video-info{
+  color: grey;
+  font-size: 13px;
+}
